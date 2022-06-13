@@ -1,0 +1,19 @@
+.container>div:nth-child(odd) {
+    background: #ddd;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    /* width: 960px; */
+}
+
+#cell {
+    padding: 1em;
+    border: thin solid;
+}
